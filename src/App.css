@@ -19,5 +19,70 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin: 0 auto;
   }
-  
+
+.numberOperatorContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+} 
+
+.specialNumberContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: right;
+}
+.numberContainer{
+    display: flex;
+    margin: 0 auto;
+    text-align: right;
+}  
+
+.btnNumber {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 3rem;
+    background-color: rgb(21, 63, 112);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    box-shadow: 0 6px 2px black;
+    margin: 0.7rem;
+}
+.btnNumber:nth-child(10){
+    width: 12rem;
+}
+
+.operatorBtn {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 3rem;
+    background-color: rgb(33, 114, 146);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    box-shadow: 0 6px 2px black;
+    margin: 0.7rem;
+}
+
+.specialBtn {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 3rem;
+    background-color: rgb(31, 91, 153);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    box-shadow: 0 6px 2px black;
+    margin: 0.7rem;
+}
